@@ -43,6 +43,7 @@ public class Group : MonoBehaviour
         {
             Debug.Log("GAME OVER");
             Destroy(gameObject);
+            Application.Quit();
         }
     }
 
